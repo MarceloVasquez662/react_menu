@@ -1,0 +1,15 @@
+.listaProducto {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  gap: 40px;
+  padding: 20px;
+  justify-content: center;
+
+  list-style: none;
+}
+
+@media (max-width: 560px) {
+  .listaProducto {
+    grid-template-columns: 100%;
+  }
+}

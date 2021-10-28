@@ -1,0 +1,17 @@
+body {
+  background-image: url("./Imagenes/fondo.jpg");
+  background-size: 300px;
+  padding-top: 65px;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+}
+
+.badge:hover {
+  cursor: default;
+}
