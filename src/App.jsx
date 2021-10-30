@@ -2,6 +2,7 @@ import "./App.css";
 import Cabecera from "./MiniComponentes/cabecera";
 import Navbar from "./Componentes/navbar";
 import Secciones from "./Componentes/secciones";
+import PiePagina from "./Componentes/piePagina";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       <div id="Complementos">
         <Cabecera titulo="Complementos" id="Complementos"></Cabecera>
         <Secciones seccion="Complementos"></Secciones>
+      </div>
+      <div>
+        <PiePagina></PiePagina>
       </div>
     </div>
   );
